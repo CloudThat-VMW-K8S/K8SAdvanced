@@ -8465,7 +8465,7 @@ spec:
             - containerPort: 8080
               name: http
           args:
-            - /opt/appdemo2526/bin/cluster_operator_run.sh
+            - /opt/strimzi/bin/cluster_operator_run.sh
           volumeMounts:
             - name: appdemo2526-tmp
               mountPath: /tmp
