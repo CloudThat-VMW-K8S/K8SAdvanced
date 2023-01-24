@@ -8460,7 +8460,7 @@ spec:
             name: appdemo2526-cluster-operator
       containers:
         - name: appdemo2526-cluster-operator
-          image: 'quay.io/appdemo2526/operator:0.32.0'
+          image: 'quay.io/strimzi/operator:0.32.0'
           ports:
             - containerPort: 8080
               name: http
@@ -8511,11 +8511,11 @@ spec:
                 3.2.3=quay.io/appdemo2526/kafka:0.32.0-kafka-3.2.3
                 3.3.1=quay.io/appdemo2526/kafka:0.32.0-kafka-3.3.1
             - name: appdemo2526_DEFAULT_TOPIC_OPERATOR_IMAGE
-              value: 'quay.io/appdemo2526/operator:0.32.0'
+              value: 'quay.io/strimzi/operator:0.32.0'
             - name: appdemo2526_DEFAULT_USER_OPERATOR_IMAGE
-              value: 'quay.io/appdemo2526/operator:0.32.0'
+              value: 'quay.io/strimzi/operator:0.32.0'
             - name: appdemo2526_DEFAULT_KAFKA_INIT_IMAGE
-              value: 'quay.io/appdemo2526/operator:0.32.0'
+              value: 'quay.io/strimzi/operator:0.32.0'
             - name: appdemo2526_DEFAULT_KAFKA_BRIDGE_IMAGE
               value: 'quay.io/appdemo2526/kafka-bridge:0.22.3'
             - name: appdemo2526_DEFAULT_JMXTRANS_IMAGE
